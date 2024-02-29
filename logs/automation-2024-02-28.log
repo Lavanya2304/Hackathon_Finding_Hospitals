@@ -1,0 +1,52 @@
+12:05:29.744 [main] INFO  factory.BaseClass - *****Fetch & display the first 5 Doctor details*****
+12:08:04.020 [main] INFO  factory.BaseClass - *****Fetch & display the first 5 Doctor details*****
+12:09:40.094 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+12:09:40.466 [main] INFO  factory.BaseClass - *****Extract & store all the surgeries*****
+12:09:43.875 [main] INFO  factory.BaseClass - *****Extracted & stored all the surgeries*****
+12:09:44.749 [main] INFO  factory.BaseClass - *****Schedule a Demo started*****
+12:10:39.580 [main] INFO  factory.BaseClass - *****Schedule a Demo Ended*****
+14:33:33.798 [main] INFO  factory.BaseClass - *****Fetch & display the first 5 Doctor details*****
+14:40:03.088 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+14:40:03.448 [main] INFO  factory.BaseClass - *****Extract & store all the surgeries*****
+14:40:28.648 [main] INFO  factory.BaseClass - *****Extracted & stored all the surgeries*****
+14:40:29.506 [main] INFO  factory.BaseClass - *****Schedule a Demo started*****
+14:41:47.896 [main] INFO  factory.BaseClass - *****Schedule a Demo Ended*****
+14:48:50.829 [main] INFO  factory.BaseClass - *****Extract & store all the surgeries*****
+16:20:56.377 [main] INFO  factory.BaseClass - *****Fetch & display the first 5 Doctor details*****
+16:22:44.089 [main] INFO  factory.BaseClass - *****Extract & store all the surgeries*****
+16:22:50.348 [main] INFO  factory.BaseClass - *****Schedule a Demo started*****
+16:30:28.586 [main] INFO  factory.BaseClass - *****Fetch & display the first 5 Doctor details*****
+16:31:09.269 [main] INFO  factory.BaseClass - *****Extract & store all the surgeries*****
+16:31:15.278 [main] INFO  factory.BaseClass - *****Schedule a Demo started*****
+17:20:30.376 [main] INFO  factory.BaseClass - *****Fetch & display the first 5 Doctor details*****
+17:21:05.929 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+17:21:15.148 [main] INFO  factory.BaseClass - *****Extract & store all the surgeries*****
+17:21:18.467 [main] INFO  factory.BaseClass - *****Extracted & stored all the surgeries*****
+17:21:27.791 [main] INFO  factory.BaseClass - *****Schedule a Demo started*****
+17:22:32.747 [main] INFO  factory.BaseClass - *****Schedule a Demo Ended*****
+17:31:07.206 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+17:31:15.888 [main] INFO  factory.BaseClass - *****Extract & store all the surgeries*****
+21:51:17.880 [main] INFO  factory.BaseClass - *****Fetch & display the first 5 Doctor details*****
+21:51:41.609 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+21:58:10.443 [main] INFO  factory.BaseClass - *****Fetch & display the first 5 Doctor details*****
+21:58:34.514 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+21:59:40.332 [main] INFO  factory.BaseClass - *****Fetch & display the first 5 Doctor details*****
+22:01:27.607 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+22:01:46.465 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+22:34:22.521 [main] INFO  factory.BaseClass - *****Fetch & display the first 5 Doctor details*****
+22:34:40.741 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+22:34:58.923 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+22:35:13.900 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+22:35:34.167 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+22:35:52.013 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+22:37:01.810 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+22:37:11.348 [main] INFO  factory.BaseClass - *****Extract & store all the surgeries*****
+22:38:06.728 [main] INFO  factory.BaseClass - *****Schedule a Demo started*****
+22:43:58.818 [main] INFO  factory.BaseClass - *****Fetch & display the first 5 Doctor details*****
+22:44:20.102 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+22:44:37.210 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+22:44:59.626 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+22:46:31.901 [main] INFO  factory.BaseClass - *****Fetch & display the first 5 Doctor details*****
+22:47:35.363 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+22:48:18.458 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****
+22:48:38.543 [main] INFO  factory.BaseClass - *****Fetched & displayed the first 5 Doctor details*****

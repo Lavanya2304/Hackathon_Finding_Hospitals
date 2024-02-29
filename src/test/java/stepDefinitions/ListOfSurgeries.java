@@ -35,11 +35,6 @@ public class ListOfSurgeries {
 		surgery.validateSurgeryPage();
 	}
 	
-	@Then("the user sees surgeries page")
-	public void the_user_sees_surgeries_page() throws InterruptedException {
-	   Thread.sleep(2000);
-	}
-	
 	@Then("user scrolls down the page")
 	public void user_scrolls_down_the_page() {
 		 surgery.scrollDown();

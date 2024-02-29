@@ -18,7 +18,7 @@ public class Hooks {
 	public static Properties p;
 	//static Logger log;
 
-	@BeforeAll
+	@Before
 	public static void setup() throws IOException {
 		p = BaseClass.getProperties();
 		
@@ -38,7 +38,7 @@ public class Hooks {
 		}
 	}
 
-	@AfterAll
+	@After
 	public static void tearDown() {
 		driver.quit();
 	}

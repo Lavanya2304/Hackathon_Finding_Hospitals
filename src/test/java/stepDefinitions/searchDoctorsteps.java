@@ -76,11 +76,14 @@ public class searchDoctorsteps {
 	public void the_user_applies_filters_for_availability() throws InterruptedException {
 		doctor.selectFilterAgain();
 	}
-
      
 	@When("sorts the result by some criteria")
 	public void sorts_the_result_by_some_criteria() throws InterruptedException {
 		doctor.selectRelevance();
+	}
+	@When("the user applies filters")
+	public void the_user_applies_filters() throws InterruptedException {
+		doctor.allFilters();
 	}
 
 	@Then("the user should display the details of te first {int} doctors")

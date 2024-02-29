@@ -6,12 +6,7 @@ Feature: Finding Hospitals
     Then the user Navigates to the Find Doctors page
     And the user selects the city Chennai
     And filters the search by Dentist
-    When the user applies filters for Gender 
-    And the user applies filters for patient stories
-    And the user applies filters for experiences
-    And the user applies filters for fees 
-    And the user applies filters for availability
-    And sorts the result by some criteria
+    When the user applies filters
     Then the user should display the details of te first 5 doctors
 
   Scenario: User retrieves a list of surgeries

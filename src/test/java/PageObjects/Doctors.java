@@ -114,40 +114,79 @@ public class Doctors extends BasePage {
 		clickSpecialist.click();
 	}
 	
-	//Action Methods
+	//Action Methods for regression starts
 	public void selectingGender() throws InterruptedException {
 		gender.click();
 		clickGender.click();
 		Thread.sleep(2000);
+		driver.navigate().refresh();
+	   
 	}
 	public void selectingPatientStories() throws InterruptedException {
 		patientStories.click();
 		selectpatientStories.click();
 		Thread.sleep(2000);
+		driver.navigate().refresh();
 		
 	}
 	public void selectDoctorexp() throws InterruptedException {
 		clickexperience.click();
 		selectexperience.click();
 		Thread.sleep(2000);
-	
+		driver.navigate().refresh();
+		
 	}
 	public void selectFilter() throws InterruptedException {
 		clickfilter.click();
 	    selectfees.click();
-		Thread.sleep(3000);
+	    Thread.sleep(2000);
+	    driver.navigate().refresh();
+		
 	}
 	
 	public void selectFilterAgain() throws InterruptedException {
 		clickfilter.click();
 		selectavailability.click();
 		Thread.sleep(2000);
+		driver.navigate().refresh();
+		
 	}
 	public void selectRelevance() throws InterruptedException {
 		clickrelevance.click();
 		selectrelevance.click();
-		Thread.sleep(3000);
-		}
+		Thread.sleep(2000);
+		driver.navigate().refresh();
+		
+	}
+	//regression end***********************
+	
+	
+    public void allFilters() throws InterruptedException {
+    	gender.click();
+		clickGender.click();
+		Thread.sleep(2000);
+		driver.navigate().refresh();
+		patientStories.click();
+		selectpatientStories.click();
+		Thread.sleep(2000);
+		driver.navigate().refresh();
+		clickexperience.click();
+		selectexperience.click();
+		Thread.sleep(2000);
+		driver.navigate().refresh();
+		clickfilter.click();
+	    selectfees.click();
+	    Thread.sleep(2000);
+	    driver.navigate().refresh();
+	    clickfilter.click();
+		selectavailability.click();
+		Thread.sleep(2000);
+		driver.navigate().refresh();
+		clickrelevance.click();
+		selectrelevance.click();
+		Thread.sleep(2000);
+		driver.navigate().refresh();
+    }
 	
 	public List<String> getDoctorInfo() throws InterruptedException {
 		int count=1;

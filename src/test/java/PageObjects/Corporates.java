@@ -85,7 +85,6 @@ public class Corporates extends BasePage {
 	public void nameEmpty(String excelFilePath,String sheetName) throws InterruptedException, IOException {
 		inputData=readandwritedata.read(excelFilePath,sheetName);
 		clickorgName.sendKeys(inputData[2]);
-		Thread.sleep(1000);
 		clickcontact.sendKeys(inputData[3]);
 		clickemail.sendKeys(inputData[4]);
 		clickorgSize.click();
@@ -97,35 +96,82 @@ public class Corporates extends BasePage {
 	public void OrganizationEmpty(String excelFilePath,String sheetName) throws InterruptedException, IOException {
 		inputData=readandwritedata.read(excelFilePath,sheetName);
 		clickname.sendKeys(inputData[1]);
-		clickorgName.clear();
+		clickcontact.sendKeys(inputData[3]);
+		clickemail.sendKeys(inputData[4]);
+		clickorgSize.click();
+		chooseOption.click();
+		clickintrestedIn.click();
+		chooseIntrest.click();
 		Thread.sleep(3000);
 	}
 	public void contactEmpty(String excelFilePath,String sheetName) throws InterruptedException, IOException {
 		inputData=readandwritedata.read(excelFilePath,sheetName);
+		clickname.sendKeys(inputData[1]);
 		clickorgName.sendKeys(inputData[2]);
-		clickcontact.clear();
+		clickemail.sendKeys(inputData[4]);
+		clickorgSize.click();
+		chooseOption.click();
+		clickintrestedIn.click();
+		chooseIntrest.click();
 		Thread.sleep(3000);
 	}
 	public void incorrectNoOfDigitsContact(String excelFilePath,String sheetName) throws InterruptedException, IOException {
 		inputData=readandwritedata.read(excelFilePath,sheetName);
+		clickname.sendKeys(inputData[1]);
+		clickorgName.sendKeys(inputData[2]);
 		clickcontact.sendKeys(inputData[6]);
+		clickemail.sendKeys(inputData[4]);
+		clickorgSize.click();
+		chooseOption.click();
+		clickintrestedIn.click();
+		chooseIntrest.click();
 		Thread.sleep(3000);
 	}
 	public void incorrectContactNo(String excelFilePath,String sheetName) throws InterruptedException, IOException {
 		inputData=readandwritedata.read(excelFilePath,sheetName);
-		clickcontact.clear();
+		clickname.sendKeys(inputData[1]);
+		clickorgName.sendKeys(inputData[2]);
 		clickcontact.sendKeys(inputData[7]);
+		clickemail.sendKeys(inputData[4]);
+		clickorgSize.click();
+		chooseOption.click();
+		clickintrestedIn.click();
+		chooseIntrest.click();
 		Thread.sleep(3000);
 	}
 	public void emailEmpty() throws InterruptedException {
-		clickemail.clear();
+		clickname.sendKeys(inputData[1]);
+		clickorgName.sendKeys(inputData[2]);
+		clickcontact.sendKeys(inputData[3]);
+		clickorgSize.click();
+		chooseOption.click();
+		clickintrestedIn.click();
+		chooseIntrest.click();
 		Thread.sleep(3000);
 	}
 	public void enterDetails(String excelFilePath,String sheetName) throws InterruptedException, IOException {
 		inputData=readandwritedata.read(excelFilePath,sheetName);
-		clickcontact.clear();
+		clickname.sendKeys(inputData[1]);
+		clickorgName.sendKeys(inputData[2]);
 		clickcontact.sendKeys(inputData[3]);
 		clickemail.sendKeys(inputData[4]);
+		clickorgSize.click();
+		chooseOption.click();
+		clickintrestedIn.click();
+		chooseIntrest.click();
+		Thread.sleep(3000);
+	}
+	
+	public void enterDetaildvalid(String excelFilePath,String sheetName) throws InterruptedException, IOException{
+		inputData=readandwritedata.read(excelFilePath,sheetName);
+		clickname.sendKeys(inputData[1]);
+		clickorgName.sendKeys(inputData[2]);
+		clickcontact.sendKeys(inputData[3]);
+		clickemail.sendKeys(inputData[5]);
+		clickorgSize.click();
+		chooseOption.click();
+		clickintrestedIn.click();
+		chooseIntrest.click();
 		Thread.sleep(3000);
 	}
 //	^
@@ -144,6 +190,13 @@ public class Corporates extends BasePage {
 		chooseIntrest.click();
 		Thread.sleep(3000);
 	}
+    
+	public void enterDetailsvalid(String excelFilePath,String sheetName) throws InterruptedException, IOException{
+		inputData=readandwritedata.read(excelFilePath,sheetName);
+		clickemail.clear();
+		clickemail.sendKeys(inputData[5]);
+		Thread.sleep(3000);
+	}
 	public void demobutton() throws InterruptedException {
 		Boolean bool=demobutton.isEnabled();
 		if(bool==false) {
@@ -156,13 +209,6 @@ public class Corporates extends BasePage {
 		}
 		Thread.sleep(2000);
 	}
-	public void enterDetaildvalid(String excelFilePath,String sheetName) throws InterruptedException, IOException{
-		inputData=readandwritedata.read(excelFilePath,sheetName);
-		clickemail.clear();
-		clickemail.sendKeys(inputData[5]);
-		Thread.sleep(3000);
-	}
-
 		public void textPrint() throws InterruptedException {
 			String msg=thankyoutext.getText();
 			System.out.println(msg);

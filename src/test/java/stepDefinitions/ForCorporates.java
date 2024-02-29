@@ -86,9 +86,13 @@ public class ForCorporates {
 
 	@When("user enters valid email id and clicks on schedule a demo button")
 	public void user_enters_valid_email_id_and_clicks_on_schedule_a_demo_button() throws InterruptedException, IOException {
+		corporate.enterDetailsvalid(excelFilePath,sheetName);
+	}
+    //for regression
+	@When("user enters valid emailid and clicks on schedule a demo button")
+	public void user_enters_valid_emailid_and_clicks_on_schedule_a_demo_button() throws InterruptedException, IOException {
 		corporate.enterDetaildvalid(excelFilePath,sheetName);
 	}
-
 	@Then("user validates the Thank you message is displayed")
 	public void user_validates_the_thank_you_message_is_displayed() throws InterruptedException, HeadlessException, IOException, AWTException {
 		corporate.textPrint();
